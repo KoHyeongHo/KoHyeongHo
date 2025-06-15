@@ -1,16 +1,38 @@
-## Hi there 👋
+한남대학교 2025-1학기 웹스크립트프로그래밍
 
-<!--
-**KoHyeongHo/KoHyeongHo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+저는 AI융합학과와 컴퓨터공학과를 다전공으로 하고 있는 22학번 고형호입니다. 학번은 20222402입니다.
 
-Here are some ideas to get you started:
+- 저는 자기소개 홈페이지에 다음과 같은 기능을 넣었으며, 코드 구성도 다음과 같습니다.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+0. 처음 화면
+처음 화면에서는 제 얼굴 사진과 이름, 이메일, 전화번호, 인스타그램 아이디를 넣었습니다.
+
+또한 저의 프로필, 제가 할 수 있는 것, 진행했던 프로젝트, 수상 경력, 학력, 기타 정보라는 항목을 만들었고 이를 버튼으로 구현하고 클릭할 경우 해당 페이지로 넘어가도록 하였습니다. 꾸미는 것은 style.css 코드에서 진행하였습니다.
+
+
+1. 나를 소개하는 페이지_Profile,Profile.html
+   - 이름
+   - 나이
+   - MBTI
+   - Motto(좌우명)
+   - Hobby(취미)
+   - 좋아하는 책
+   - 나는 이런 사람이 되고 싶다.
+다음과 같은 내용은 기본 화면에 Profile 버튼을 누를 경우 볼 수 있습니다. 
+.
+
+2. 내가 할 수 있는 것_Skills, Skills.html
+   - 이 페이지에서는 제가 할 수 있는 프로그래밍 언어를 알려주고 얼마나 할 수 있는지 5점 만점으로 숙련도를 표시하였습니다. 
+  
+3. 했던 프로젝트를 볼 수 있는 페이지_Project, project.html, ai-project.html, cs-project.html, ann-rnn.html, cnn.html, gan.html, rl.html,diet-manager.html, blind-seat-manager.html
+   -여기서는 전공으로 분류하여 수행했던 프로젝트를 정리하였습니다.
+   - 전공을 선택할 경우 진행했던 프로젝트 목록을 볼 수 있으며, 항목을 클릭하면 짧은 설명으로 진행했던 프로젝트를 볼 수 있습니다.
+  
+4. 수상 경력_Awards, awards.html
+   - 대학 생활동안 저의 수상경력을 년도와 기관을 표시하여 적어두었습니다.
+
+5. 저의 학력을 간단하게 적었습니다._ Education, Education.html
+   - 한남대학교라는 정보와 전공, 다전공, 평균 성적을 표기하였습니다.
+  
+6. 잡다한 정보를 적엇습니다.Others, Others.html
+   - 제가 사용했던 블로그와 저의 자격증 정보, 그리고 어떤 아르바이트를 해봤는지 적엇습니다.
