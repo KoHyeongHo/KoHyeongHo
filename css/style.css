@@ -1,0 +1,313 @@
+/* ─── Reset ───────────────────────────────────────────────────────── */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ─── Base Styles ─────────────────────────────────────────────────── */
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  text-align: center;
+  background: #fafafa;
+  color: #333;
+}
+
+/* ─── Header & Decoration ─────────────────────────────────────────── */
+header {
+  background: white;
+  overflow: hidden;
+}
+
+.decor {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.intro h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.intro .contact {
+  margin-top: 6px;
+  color: #333;
+}
+
+.intro .contact a {
+  color: #174ea6;
+  text-decoration: none;
+}
+
+/* ─── Main Navigation (index.html) ───────────────────────────────── */
+.grid-nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.grid-nav button {
+  padding: 15px 0;
+  border: 2px solid #174ea6;
+  border-radius: 12px;
+  background: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.grid-nav button:hover {
+  background: #e3f2fd;
+}
+
+/* ─── Back Navigation (공용) ───────────────────────────────────────── */
+.back-nav {
+  max-width: 200px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 20px;
+}
+
+.back-nav button {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #174ea6;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.back-nav button:hover {
+  background: #e3f2fd;
+}
+
+/* ─── Highlight Initial Letters ──────────────────────────────────── */
+.initial {
+  color: red;
+  font-weight: bold;
+}
+
+/* ─── Page Title ────────────────────────────────────────────────── */
+.page-title {
+  margin-top: 40px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.page-title h2 {
+  font-size: 2rem;
+}
+
+/* ─── Card Layout (project.html & cs-project.html) ──────────────── */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 40px 20px;
+}
+
+.card {
+  border: 3px solid #174ea6;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 280px;
+  text-align: center;
+  background: white;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card p {
+  margin: 12px 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ─── AI Items (ai-project.html) ────────────────────────────────── */
+.ai-items {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 40px 20px;
+}
+
+.ai-item {
+  text-align: center;
+}
+
+.ai-item img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.label-box {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 12px;
+  border: 2px solid #174ea6;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* ─── Detail Pages Layout (ann-rnn, cnn, gan, rl 등) ────────────── */
+.project-detail {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 40px 20px;
+}
+
+.project-detail img {
+  max-width: 500px;
+  width: 100%;
+  border: 3px solid #174ea6;
+  border-radius: 8px;
+}
+
+.project-text {
+  max-width: 600px;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.project-text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5em;
+}
+
+.project-text p {
+  margin-bottom: 1em;
+}
+
+.project-text ul {
+  list-style: disc;
+  padding-left: 1.2em;
+}
+
+.project-text li {
+  margin-bottom: 1em;
+}
+
+/* ─── Skills Page ───────────────────────────────────────────────── */
+.skills-items {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  margin: 40px 20px;
+}
+
+.skill-item {
+  text-align: center;
+}
+
+.skill-item img {
+  width: 120px;
+  display: block;
+  margin: 0 auto 12px;
+}
+
+.skill-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.skill-rating {
+  font-size: 1.5rem;
+  color: gold;
+  letter-spacing: 4px;
+}
+
+/* ─── Profile & Others Pages ─────────────────────────────────────── */
+.page-title {
+  margin-top: 40px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.profile-section h3 {
+  font-size: 1.3rem;
+  margin: 1.5em 0 0.5em;
+  text-align: left;
+}
+
+.profile-section p {
+  text-align: left;
+  font-size: 1.1rem;
+  margin-bottom: 0.8em;
+}
+
+/* ─── Awards Page ──────────────────────────────────────────────── */
+.award-list {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.award-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.2em;
+}
+
+.award-date {
+  width: 100px;
+  color: #777;
+  font-style: italic;
+}
+
+.award-title {
+  flex: 1;
+  padding: 0 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+.award-org {
+  width: 200px;
+  text-align: right;
+  color: red;
+  font-style: italic;
+}
+
+/* ─── Education Page (project-detail & project-text 스타일 그대로 적용) ─ */
